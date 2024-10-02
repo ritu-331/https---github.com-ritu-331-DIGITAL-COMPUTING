@@ -19,6 +19,7 @@ const list3=["AI & Data Science.","Full Stack Development.","Cross Platform Deve
 
 
 <Services head="Education"  list={list1.map((e)=><li>{e}</li>)} />
+
 <Services head="ITES & Industry"  list={list2.map((e)=><li>{e}</li>)} />
 <Services head="Training Placement"  list={list3.map((e)=><li>{e}</li>)} />
 </div>

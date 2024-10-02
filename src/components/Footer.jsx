@@ -2,6 +2,10 @@ import React from 'react'
 import Down from './Down'
 
 export default function Footer() {
+
+const listOfData1=["Education","ITES & Development","Training & Placement","Consultancy"]
+const listOfData2=["About Us","Contact Us","Projects","Courses","Marks Predictor","Consultancy"]
+
   return (
     <>
     <footer className='bg-slate-950 flex  justify-center items-center w-full  text-white'>
@@ -12,26 +16,9 @@ export default function Footer() {
 <p className='my-4'>We are a data science company establishing by IT masters, and researchers with great analytical ability, honesty & quality work.</p>
 </div>
 
-<div>
-    <h4 className='text-2xl font-bold my-4'>Services</h4>
-<Down service="Education"/>
-<Down service="ITES & Development"/>
-<Down service="Training & Placement"/>
-<Down service="Consultancy"/>
-</div>
 
-<div>
-    <h4 className='text-2xl font-bold my-4'>Quick Links</h4>
-
-    <Down service="About Us"/>
-    <Down service="Contact Us"/>
-    <Down service="Projects"/>
-    <Down service="Courses"/>
-    <Down service="Marks Predictor"/>
-    <Down service="News & Events"/>
-    
-</div>
-
+ <Down head="Services" service={listOfData1.map((e)=><li>{e}</li>)}/>
+ <Down head="Quick Links" service={listOfData2.map((e)=><li>{e}</li>)}/>
 <div>
     <h4 className='text-2xl font-bold my-4'>Contact</h4>
     <div className='flex my-2'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
