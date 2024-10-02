@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 export default function Header() {
   return (
-    <Fragment>
+    <>
 
 <nav className="bg-slate-950 border-b-2 border-gray-200 text-white h-16 md:h-20 xl:h-14  flex items-center justify-center w-full">
 
@@ -29,6 +29,6 @@ export default function Header() {
       </div>
      
 </nav>
-    </Fragment>
+    </>
   )
 }

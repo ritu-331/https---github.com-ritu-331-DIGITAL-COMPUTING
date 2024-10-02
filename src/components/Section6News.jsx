@@ -25,17 +25,17 @@ export default function Section6() {
     <h2 className='text-2xl my-4'>Latest News.</h2>
 <p className='my-6'>CHECK OUT SOME OF OUR NEWS</p>
 
-<div id="threeInOne" className='grid grid-cols-1 my-6 w-full md:grid-cols-3 gap-6 mb-24 '>
-<div id='threeInOne1' className='  bg-slate-800 p-10 h-72 '  style={image1} >
+<div className='grid grid-cols-1 my-6 h-[100vh] w-full md:grid-cols-3 gap-6 mb-24 '>
+<div  className='  bg-slate-800 p-10  '  style={image1} >
 
 </div>
 
-<div id='threeInOne2' className=' bg-slate-800 p-10 h-72'  style={image2} >
+<div  className=' bg-slate-800 p-10 '  style={image2} >
  
    
 </div>
 
-<div id='threeInOne3' className='  bg-slate-800 p-10 h-72'  style={image3} >
+<div  className='  bg-slate-800 p-10 '  style={image3} >
  
 </div>
 
